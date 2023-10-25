@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Web-project/css/main/main3.css">
+    <link rel="stylesheet" href="/Web-project/css/main/main4.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container1">
+        <div id="headBar">
+            <div id="leftText">
+                ㄱㄱㄱㅈㅎ
+            </div>
+            <div id="rightText">
+                로그인/회원가입
+            </div>
+        </div>
+        <div id="bodyBar">
+            <div id="bodyBox">
+                <div id="bodyText1">
+                    회원가입하고
+                    <div id="bodyText2">리뷰등록
+                        <span id="bodyText3"> 해보세요!</span>
+                    </div>
+                </div>
+                <img src="/Web-project/css/main/image/mingcute_user-4-fill.png" alt="Image1" width="217" height="217">
+            </div>
+            <div id="bottomBox">
+                <img src="/Web-project/css/main/image/Group 11.png" alt="Image2" width="100" height="15">
+            </div>
+        </div>
+    </div>
+  
+    <div class="container2">
+        <div id="head-bar">
+            <div id="left-text">
+                ㄱㄱㄱㅈㅎ
+            </div>
+            <div id="right-text">
+                로그인/회원가입
+            </div>
+        </div>
+        <div id="body-bar">
+            <div id="body-box">
+                <div id="body-text1">
+                    손쉬운
+                    <div id="body-text2">진료과목 찾기!
+                    </div>
+                </div>
+                <img src="/Web-project/css/main/image/image 11.png" alt="Image1" width="217" height="217">
+            </div>
+            <div id="bottom-box">
+                <img src="/Web-project/css/main/image/Group 12.png" alt="Image2" width="100" height="15">
+            </div>
+        </div>
+    </div>
+    
+ 
+    <script>
+        const a = document.querySelector(".container1")
+        const b = document.querySelector(".container2")
+        setInterval(()=>{
+            if(a.style.display=="block") {
+                a.style.display = "none"
+                b.style.display = "block"
+            } else{
+                a.style.display ="block"
+                b.style.display = "none"
+            } 
+        }, 4000)
+    </script>
+</body>
+</html>

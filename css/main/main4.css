@@ -1,4 +1,4 @@
-#headBar {
+#head-bar {
     width: 100%;
     max-width: 1920px;
     height: 70px;
@@ -8,21 +8,21 @@
     align-items: center;
 }
 
-#leftText {
+#left-text {
     font-size: 30px;
     font-weight: bold;
 }
 
-#rightText {
+#right-text {
     font-size: 30px;
     font-weight: bold;
 }
 
-#bodyBar {
+#body-bar {
     width: 100%;
     max-width: 1920px;
     height: 300px;
-    background-color: #3896EC;
+    background-color: #D9D9D9;
     flex-direction: column;  
     display: flex;
     align-items: center;
@@ -30,45 +30,36 @@
     text-align: center;
 }
 
-#bodyBox{
+#body-box{
     width: 486px;
     height: 172px;
-    background-color:  #3896EC;
+    background-color:  #D9D9D9;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#bodyText1 {
+#body-text1 {
     font-size: 40px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #000000;
     text-align: left;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     margin-right: 20px;
 }
 
-#bodyText2 {
+#body-text2 {
     font-size: 40px;
     font-weight: bold;
-    color: #5AE4ED;
+    color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     margin-right: 0; 
     margin-bottom: 0; 
 }    
 
-#bodyText3 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-right: 10px;
-    margin-bottom: 0;
-}
-
-#bottomBox {
+#bottom-box {
     width: 141px;
     height: 15px;
     top: 40px;
