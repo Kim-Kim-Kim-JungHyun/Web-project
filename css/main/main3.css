@@ -1,3 +1,8 @@
+#main3 {
+    width: 1920px;
+    height: 1080px;
+}
+
 #head-bar {
     width: 100%;
     max-width: 1920px;
@@ -22,7 +27,7 @@
 #body-bar {
     width: 100%;
     max-width: 1920px;
-    height: 358px;
+    height: 300px;
     background-color: #3896EC;
     display: -webkit-flex;
     display: flex;
@@ -40,7 +45,7 @@
 }
 
 #body-text1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
     text-align: left;
@@ -49,15 +54,28 @@
 
 
 #body-text2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #5AE4ED;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    white-space: nowrap;
 }
 
 #body-text3{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-right: 100px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#bottom-box {
+    width: 141px;
+    height: 15px;
+    background-color: #3896EC;
+    margin-top: auto;
+    margin-right: auto;
+
 }
