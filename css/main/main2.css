@@ -1,4 +1,4 @@
-#headBar1 {
+#headBar2 {
     width: 100%;
     max-width: 1920px;
     height: 70px;
@@ -8,21 +8,21 @@
     align-items: center;
 }
 
-#leftText1 {
+#leftText2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-#rightText1 {
+#rightText2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-#bodyBar1 {
+#bodyBar2 {
     width: 100%;
     max-width: 1920px;
     height: 300px;
-    background-color: #BF5AF2;
+    background-color: #B6FFF2;
     flex-direction: column;  
     display: flex;
     align-items: center;
@@ -30,16 +30,16 @@
     text-align: center;
 }
 
-#bodyBox1{
+#bodyBox2 {
     width: 486px;
     height: 172px;
-    background-color:  #BF5AF2;
+    background-color:  #B6FFF2;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#bodyText11{
+#bodyText12 {
     font-size: 40px;
     font-weight: bold;
     color: #000;
@@ -49,17 +49,17 @@
     margin-right: 20px;
 }
 
-#bodyText21 {
+#bodyText22 {
     font-size: 40px;
     font-weight: bold;
-    color: #902552;
+    color: #DED9D9;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     white-space: nowrap;
     margin-right: 0; 
     margin-bottom: 0; 
 }    
 
-#bodyText31 {
+#bodyText32 {
     font-size: 40px;
     font-weight: bold;
     color: #000;
@@ -68,7 +68,7 @@
     margin-bottom: 0;
 }
 
-#bottomBox1 {
+#bottomBox2 {
     width: 141px;
     height: 15px;
     top: 40px;
