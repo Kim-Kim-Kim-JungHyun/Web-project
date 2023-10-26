@@ -1,0 +1,77 @@
+#headBar {
+    width: 100%;
+    max-width: 1920px;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rightText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#bodyBar {
+    width: 100%;
+    max-width: 1920px;
+    height: 300px;
+    background-color: #3896EC;
+    flex-direction: column;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+#bodyBox{
+    width: 486px;
+    height: 172px;
+    background-color:  #3896EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyText1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+#bodyText2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #5AE4ED;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    margin-right: 0; 
+    margin-bottom: 0; 
+}    
+
+#bodyText3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#bottomBox {
+    width: 141px;
+    height: 15px;
+    top: 40px;
+    position: relative;
+}
+
