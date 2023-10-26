@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: white;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10px;
+}
+
+b {
+  font-size: 20px;
+  padding-left: 35px;
+  margin-top: -6px;
+}
+
+img {
+  height: 29px;
+  width: 29px;
+}
+
+.title {
+  justify-content: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'IBM Plex Sans KR';
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+}
+
+.title-container {
+  padding-top: 40px;
+}
+
+.hospitals-title {
+  left: 111px;
+  top: 0;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans KR';
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.hospital-card {
+  width: 224px;
+  height: 70px;
+  left: 111px;
+  top: 0;
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  font-family: 'IBM Plex Sans KR';
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.card-container {
+  left: 100px;
+  top: 315px;
+  position: absolute;
+  border: 1px white solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 45px;
+  display: inline-flex;
+}
+
+.hospital-card-box {
+  padding: 47px 59px;
+  background: white;
+  box-shadow: 0px 4px 7px 5px rgba(191, 90, 242, 0.25);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 3px #BF5AF2 solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+  display: inline-flex;
+}
+
+.hospital-image {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
+
+.hospital-name {
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+.hospital-details-container {
+  width: 722px;
+  padding: 20px;
+  top: 315px;
+  left: 407px;
+  position: absolute;
+  background: #F2F2F2;
+  border-radius: 15px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: inline-flex;
+}
+
+.hospital-details-card {
+  width: 722px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+:hover.hospital-details-card {
+  border: 2px #BF5AF2 solid;
+  box-sizing: border-box;
+}
+
+.hospital-detail {
+  width: 200px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans KR';
+  line-height: 95px;
+  padding-left: 20px;
+}
+
+.hospital-location {
+  width: 480px;
+  height: 100px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans KR';
+  line-height: 95px;
+}
