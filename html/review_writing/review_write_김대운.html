@@ -24,5 +24,36 @@
     <div class="review_write_purple">
       <p class="purple_p"><span class="review">리뷰</span> 작성</p>
     </div>
+    <div id="writing_list">
+      <div class="inner">
+        <input
+          type="text"
+          class="inner"
+          name="text"
+          placeholder="여기에 제목을 입력하세요."
+        />
+      </div>
+      <div class="innertext">
+        <textarea
+          name="text"
+          id="text_area"
+          cols="30"
+          rows="10"
+          placeholder="여기에 내용을 입력하세요."
+        ></textarea>
+      </div>
+    </div>
+    <div id="writing-check-button">
+      <button>
+        글쓰기
+        <script>
+          document
+            .getElementById("writing-check-button")
+            .addEventListener("click", function () {
+              window.history.back();
+            });
+        </script>
+      </button>
+    </div>
   </body>
 </html>
