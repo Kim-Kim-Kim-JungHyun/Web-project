@@ -11,15 +11,26 @@
   </head>
   <body>
     <header>
-      <img
-        src="../../images/icon _arrow left_.png"
-        alt="move_to_back"
-        width="29"
-        height="33"
-      />
+      <a href="javascript:void(0);" id="goback-img">
+        <img
+          src="../../images/icon _arrow left_.png"
+          alt="move_to_back"
+          width="35"
+          height="33"
+          id="gobackimg"
+        />
+      </a>
       <div class="name_page_text">
         <p>리뷰 작성</p>
       </div>
+      <script>
+        document
+          .getElementById("goback-img")
+          .addEventListener("click", function () {
+            console.log("move-to-last-page");
+            history.back();
+          });
+      </script>
     </header>
     <div class="review_write_purple">
       <p class="purple_p"><span class="review">리뷰</span> 작성</p>
@@ -51,6 +62,7 @@
             .getElementById("writing-check-button")
             .addEventListener("click", function () {
               window.history.back();
+              console.log("writing-done");
             });
         </script>
       </button>
