@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  margin: 40px; /* 간격을 더 벌리기 위해 10px에서 20px로 조정 */
+  transition: background-color 0.5s ease;
+}
+
+.button:hover {
+  background-color: purple;
+}
