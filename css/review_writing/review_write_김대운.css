@@ -14,8 +14,12 @@ header {
   display: flex;
   align-items: center;
 }
-img {
+#gobackimg {
   margin-right: 40px;
+  margin-left: 25px;
+}
+#goback-img:hover {
+  cursor: pointer;
 }
 .name_page_text {
   width: 229;
@@ -108,4 +112,7 @@ button {
   font-weight: bold;
   font-size: 30px;
   cursor: pointer;
+}
+button:hover {
+  border: 3px solid #000000;
 }
