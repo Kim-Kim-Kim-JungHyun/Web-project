@@ -1,0 +1,29 @@
+name: Auto Merge on Push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto_merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Merge feature branch
+      run: |
+        git fetch origin
+        
+        git checkout main
+        
+        git checkout -b merge_branch
+        
+        git merge feature
+
+        git push origin merge_branch
+      
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
