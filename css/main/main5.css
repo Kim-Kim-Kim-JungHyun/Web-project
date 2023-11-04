@@ -19,8 +19,11 @@
   justify-content: center;
   font-size: 30px; /* 글자 크기 조정 */
   color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .button:hover {
   background-color: #cf7df9;
+  cursor: pointer;
+  
 }
